@@ -128,7 +128,7 @@ const {
   
     // need something like: $1), ($2), ($3 
     const insertValues = tagList.map(
-      ($1, index) => `$${index + 1}`).join('), (');
+      (_, index) => `$${index + 1}`).join('), (');
     // then we can use: (${ insertValues }) in our string template
   
     // need something like $1, $2, $3
