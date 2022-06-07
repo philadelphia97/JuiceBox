@@ -1,0 +1,25 @@
+{
+  "name": "juicebox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed:dev": "nodemon ./db/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philadelphia97/JuiceBox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philadelphia97/JuiceBox/issues"
+  },
+  "homepage": "https://github.com/philadelphia97/JuiceBox#readme",
+  "dependencies": {
+    "modules": "^0.4.0",
+    "node": "^17.7.2"
+  }
+}
